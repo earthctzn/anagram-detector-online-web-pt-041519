@@ -15,4 +15,8 @@ class Anagram
     end
     ary
   end 
+
+  def match(array)
+    array.select{|word|word.split("").sort == 
+
 end 
